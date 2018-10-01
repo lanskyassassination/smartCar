@@ -31,7 +31,7 @@ namespace LeapMotionDriverWindow.Menu
             {
                 CircleMenuPosition[i] = new Point(370 + 300 * Math.Cos((step * i + 90) * Math.PI / 180), 50 + 100 * Math.Sin((step * i+90) * Math.PI / 180));
                 menuButtonList[i].HorizontalAlignment = HorizontalAlignment.Left;
-                menuButtonList[i].VerticalAlignment = System.Windows.VerticalAlignment.Top;
+                menuButtonList[i].VerticalAlignment = VerticalAlignment.Top;
                 menuButtonList[i].Margin = new Thickness(CircleMenuPosition[i].X, CircleMenuPosition[i].Y, 0, 0);
             }
         }

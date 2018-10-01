@@ -25,7 +25,7 @@ namespace LeapMotionDriverWindow.Menu
         public MenuTemplate menuParent = null;
         private int moveIndex = -1;
         private bool isSelected = false;        
-        private double bigSize = EnvironmentSetting.Default["bigSize"];
+        private double bigSize = EnvironmentSetting.Default("bigSize");
         private double mediumSize = EnvironmentSetting.Default["mediumSize"];
         private double smallSize = EnvironmentSetting.Default["smallSize"];
 
